@@ -3,13 +3,16 @@
 ## Overview
 
 This open-source PCB module is designed as a **drop in solution** for any project that requires a **high quality RF continuous wave signal** with at least **16 dBm output power**.  
-It is particularly well-suited for **passive RF mixers**, which can achieve excellent linearity (**high IP3**) when driven by a relatively strong and spectrally clean local oscillator.
+It is particularly well suited for **passive RF mixers**, which can achieve excellent linearity (**high IP3**) when driven by a relatively strong and spectrally clean local oscillator.
+
+I present more details on my website: [www.sp6gk.com](https://www.sp6gk.com/).
+
 
 <img src="/Photos/IMG_20250809_144548.jpg" width="1200">
 
 The design emphasizes:
 
-- Stable output power (16–20 dBm depending on frequency)
+- Output power (16–20 dBm depending on frequency)
 - Low phase noise
 - Minimal harmonics and spurious emissions
 - Easy integration into custom designs
@@ -76,6 +79,7 @@ Testing was performed using a **Keysight CXA Spectrum Analyzer (N9000B)** with t
 <img src="Verification/Measurements/Adf4351_400NHz_10mhzwide.png" width="800">
 
 ---
+Module was tested with STM32F407 discovery board, using driver written by [KB3GTN](https://github.com/kb3gtn/STM32_ADF4351).
 
 ---
  ## Evaluation on LPFs in progress
