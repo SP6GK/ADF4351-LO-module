@@ -5,6 +5,8 @@
 This open-source PCB module is designed as a **drop in solution** for any project that requires a **high quality RF continuous wave signal** with at least **16 dBm output power**.  
 It is particularly well-suited for **passive RF mixers**, which can achieve excellent linearity (**high IP3**) when driven by a relatively strong and spectrally clean local oscillator.
 
+<img src="/Photos/IMG_20250809_144548.jpg" width="1200">
+
 The design emphasizes:
 
 - Stable output power (16–20 dBm depending on frequency)
@@ -13,6 +15,8 @@ The design emphasizes:
 - Easy integration into custom designs
 
 Originally developed for the **Presto HF to QO-100 transverter project**, this module can be used in a wide variety of RF applications.
+
+<img src="Photos/IMG_20250809_144655.jpg" width="1200">
 
 ---
 
@@ -52,18 +56,29 @@ Originally developed for the **Presto HF to QO-100 transverter project**, this m
 
 Testing was performed using a **Keysight CXA Spectrum Analyzer (N9000B)** with the **phase noise measurement** option.
 
-### Phase Noise Examples
-| Frequency | Phase Noise (selected offsets) |
-|-----------|--------------------------------|
-| 100 MHz | See [plot](PLL_ADF4351/ADF435100MHZPNOISE.png) |
-| 400 MHz | See [plot](PLL_ADF4351/ADF4351_400MHzPNoise.png) |
-| 1.2 GHz | See [plot](PLL_ADF4351/ADF4351_1200MHzPNoise_0000.png) |
+**100 MHz**  
+<img src="Verification/Measurements/ADF435100MHZPNOISE.png" width="800">
+
+**400 MHz**  
+<img src="Verification/Measurements/ADF4351_400MHzPNoise.png" width="800">
+
+**1.2 GHz**  
+<img src="Verification/Measurements/ADF4351_1200MHzPNoise_0000.png" width="800">
+
+---
 
 ### Harmonics & Output Spectra
-- [400 MHz harmonics](PLL_ADF4351/Adf4351_400MHz_Harmonics.png)  
-- [100 MHz wide span](PLL_ADF4351/Adf4351_100mhzwide.png)  
-- [1.2 GHz narrow span](PLL_ADF4351/Adf4351_1200MHz_narrow.png)  
 
+**100 MHz CW (50 MHz span)**  
+<img src="Verification/Measurements/Adf4351_100mhzwide.png" width="800">
+
+**400 MHz CW (10 MHz span)**  
+<img src="Verification/Measurements/Adf4351_400NHz_10mhzwide.png" width="800">
+
+---
+
+---
+ ## Evaluation on LPFs in progress
 ---
 
 ## Repository Contents
@@ -71,7 +86,4 @@ Testing was performed using a **Keysight CXA Spectrum Analyzer (N9000B)** with t
 - **/Fabrication** (Gerbers)
 - **/Verification** (Measurements)
 - **/Documents** (BOM)
-- **/Software** for STM32F407 control (driver by KB3GTN)
 - **/Photos** (photos of assembled PCB)
-
- ## Evaluation on LPFs and 
