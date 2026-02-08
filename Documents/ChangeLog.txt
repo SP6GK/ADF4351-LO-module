@@ -1,0 +1,10 @@
+400MHz-800MHz_rev01a initial variant
+400MHz-800MHz_rev01b:
+    -Added triplexer before amplifier (uses low band)
+    -Moved CE resistor to the bottom side so that it is not on the exposed F mask right next to the shield
+
+2GHz_rev01a
+    -Adapted to other frequency range:
+        -Changed Balun, coupling capacitor, removed two bands and replaced them with one microstrip LPF.
+    -Added triplexer before amplifier (uses mid band)
+    -Moved CE resistor to the bottom side so that it is not on the exposed F mask right next to the shield

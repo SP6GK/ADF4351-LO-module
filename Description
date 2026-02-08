@@ -1,0 +1,5 @@
+Project number: 0008_PrestoLO
+Description: Local oscillator module based on ADF431 PLL designed for Presto transverter
+Tags: PLL, ADF4351, LO, Oscillator, oscillator, transverter
+Type: part of system
+Includes software?: y

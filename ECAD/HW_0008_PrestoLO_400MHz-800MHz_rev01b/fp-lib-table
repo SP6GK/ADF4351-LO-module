@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Custom_RF_Shielding_footprints")(type "KiCad")(uri "/home/sp6gk/Documents/KiCadlibraries/Custom_RF_shielding_Footprints/Custom_RF_Shielding_footprints.pretty")(options "")(descr ""))
+)

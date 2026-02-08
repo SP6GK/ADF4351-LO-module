@@ -1,0 +1,12 @@
+# Editor / temporary files
+.$*.bkp
+*.bkp
+*~
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# KiCad backup directories
+ECAD/**/**-backups/

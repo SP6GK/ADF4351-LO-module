@@ -1,0 +1,35 @@
+Drill report for HW_0008_PrestoLO_rev01b.kicad_pcb
+Created on 2026-02-07T13:51:32+0100
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'HW_0008_PrestoLO_rev01b-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,300mm  0,0118"  (80 holes)
+    T2  0,300mm  0,0118"  (6 holes)
+    T3  0,400mm  0,0157"  (17 holes)
+    T4  0,500mm  0,0197"  (235 holes)
+    T5  0,600mm  0,0236"  (2 holes)
+    T6  0,750mm  0,0295"  (180 holes)
+    T7  0,900mm  0,0354"  (3 holes)
+    T8  1,000mm  0,0394"  (24 holes)
+    T9  1,200mm  0,0472"  (1 hole)
+    T10  1,700mm  0,0669"  (4 holes)
+    T11  1,800mm  0,0709"  (2 holes)
+    T12  3,200mm  0,1260"  (3 holes)
+
+    Total plated holes count 557
+
+
+Drill file 'HW_0008_PrestoLO_rev01b-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
